@@ -1,0 +1,205 @@
+/* Estilos generales */
+$body-font: Arial, sans-serif;
+$background-color: #f7f7f7;
+
+body {
+    font-family: $body-font;
+    background-color: $background-color;
+}
+
+/* Estilos del encabezado */
+$header-background: #333;
+$header-color: #fff;
+$header-padding: 40px 0;
+
+.header {
+    background-color: #333 $header-background;
+    color: #333 $header-color;
+    text-align: center;
+    padding: $header-padding;
+    position: relative;
+}
+
+/* Estilos del logotipo */
+$logo-margin-bottom: 50px
+;
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $logo-margin-bottom;
+}
+
+$logo-width: 90px;
+$logo-margin-right: 20px;
+$logo-text-font-size: 2.5rem;
+
+.logo {
+    width: $logo-width;
+    height: auto;
+    margin-right: $logo-margin-right;
+}
+
+.logo-text {
+    font-size: $logo-text-font-size;
+}
+
+/* Estilos para los botones de ingresar */
+$btn-ingresar-padding: 12px 24px;
+$btn-ingresar-bg: #ff6600;
+$btn-ingresar-color: #fff;
+$btn-ingresar-font-size: 1.2rem;
+$btn-ingresar-transition: background-color 0.3s;
+$btn-ingresar-hover-bg: #ff8000;
+
+.btn-ingresar {
+    display: inline-block;
+    padding: $btn-ingresar-padding;
+    background-color: $btn-ingresar-bg;
+    color: $btn-ingresar-color;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: $btn-ingresar-font-size;
+    transition: $btn-ingresar-transition;
+}
+
+.btn-ingresar:hover {
+    background-color: $btn-ingresar-hover-bg;
+}
+
+/* Estilos para los títulos de sección */
+$section-title-font-size: 2.5rem;
+$section-title-margin-bottom: 20px;
+$section-title-color: #333;
+
+.section-title {
+    font-size: $section-title-font-size;
+    margin-bottom: $section-title-margin-bottom;
+    color: $section-title-color;
+}
+
+/* Estilos para los subtítulos de sección */
+$section-subtitle-font-size: 1.8rem;
+$section-subtitle-margin-top: 30px;
+$section-subtitle-color: #555;
+
+.section-subtitle {
+    font-size: $section-subtitle-font-size;
+    margin-top: $section-subtitle-margin-top;
+    color: $section-subtitle-color;
+}
+
+/* Estilos para los párrafos */
+$p-font-size: 1.2rem;
+$p-line-height: 1.6;
+$p-color: #666;
+$p-margin-bottom: 20px;
+
+p {
+    font-size: $p-font-size;
+    line-height: $p-line-height;
+    color: $p-color;
+    margin-bottom: $p-margin-bottom;
+}
+
+/* Estilo para el título resaltado */
+$highlight-font-size: 2.8rem;
+$highlight-color: #ff6600;
+$highlight-margin-top: 40px;
+
+.highlight {
+    font-size: $highlight-font-size;
+    color: $highlight-color;
+    margin-top: $highlight-margin-top;
+}
+
+/* Estilos del encabezado */
+$header-background: #333;
+$header-color: #fff;
+$header-padding: 40px 0;
+
+.header {
+    background-color: $header-background;
+    color: $header-color;
+    text-align: center;
+    padding: $header-padding;
+    position: relative;
+}
+
+
+
+/* Estilos de la barra de navegación */
+$nav-background: #444;
+$nav-padding: 30px auto;
+$nav-margin: 0 auto;
+$nav-max-width: 550px;
+
+nav {
+    background-color: $nav-background;
+    text-align: center;
+    padding: $nav-padding;
+    margin: $nav-margin;
+    max-width: $nav-max-width;
+}
+
+nav a {
+    color: $header-color;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos del contenido principal */
+$main-max-width: 800px;
+$main-margin: 0 auto;
+$main-padding: 20px;
+
+main {
+    max-width: $main-max-width;
+    margin: $main-margin;
+    padding: $main-padding;
+}
+
+/* Estilos de las tarjetas de servicio */
+$CardServicio-bg: #fff;
+$CardServicio-border: 1px solid #ddd;
+$CardServicio-padding: 20px;
+$CardServicio-margin: 20px 0;
+$CardServicio-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.CardServicio {
+    background-color: $CardServicio-bg;
+    border: $CardServicio-border;
+    padding: $CardServicio-padding;
+    margin: $CardServicio-margin;
+    box-shadow: $CardServicio-box-shadow;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+/* Estilos para el footer personalizado */
+$mi-footer-bg: #333;
+$mi-footer-padding: 20px 0;
+
+.mi-footer {
+    background-color: $mi-footer-bg;
+    color: $header-color;
+    text-align: center;
+    padding: $mi-footer-padding;
+    position: relative;
+}
+
+/* Estilos para los enlaces en el footer */
+.mi-footer a {
+    color: $header-color;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para los enlaces en el footer cuando se les pasa el mouse por encima */
+.mi-footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Estilos del encabezado */
+.header {
+  background-color: #333 #333;
+  color: #333 #fff;
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+/* Estilos del logotipo */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.logo-text {
+  font-size: 2.5rem;
+}
+
+/* Estilos para los botones de ingresar */
+.btn-ingresar {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.btn-ingresar:hover {
+  background-color: #ff8000;
+}
+
+/* Estilos para los títulos de sección */
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilos para los subtítulos de sección */
+.section-subtitle {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #555;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el título resaltado */
+.highlight {
+  font-size: 2.8rem;
+  color: #ff6600;
+  margin-top: 40px;
+}
+
+/* Estilos del encabezado */
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 30px auto;
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos del contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de las tarjetas de servicio */
+.CardServicio {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+}
+
+/* Estilos para el footer personalizado */
+.mi-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+/* Estilos para los enlaces en el footer */
+.mi-footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos para los enlaces en el footer cuando se les pasa el mouse por encima */
+.mi-footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

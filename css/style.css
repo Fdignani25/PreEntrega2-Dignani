@@ -7,8 +7,8 @@ body {
 
 /* Estilos del encabezado */
 .header {
-  background-color: #333 #333;
-  color: #333 #fff;
+  background-color: #333;
+  color: #fff;
   text-align: center;
   padding: 40px 0;
   position: relative;
@@ -75,15 +75,6 @@ p {
   font-size: 2.8rem;
   color: #ff6600;
   margin-top: 40px;
-}
-
-/* Estilos del encabezado */
-.header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 40px 0;
-  position: relative;
 }
 
 /* Estilos de la barra de navegación */

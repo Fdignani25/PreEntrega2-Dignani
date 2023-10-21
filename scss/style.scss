@@ -13,16 +13,15 @@ $header-color: #fff;
 $header-padding: 40px 0;
 
 .header {
-    background-color: #333 $header-background;
-    color: #333 $header-color;
+    background-color: $header-background;
+    color: $header-color;
     text-align: center;
     padding: $header-padding;
     position: relative;
 }
 
 /* Estilos del logotipo */
-$logo-margin-bottom: 50px
-;
+$logo-margin-bottom: 50px;
 
 .logo-container {
     display: flex;
@@ -113,21 +112,6 @@ $highlight-margin-top: 40px;
     color: $highlight-color;
     margin-top: $highlight-margin-top;
 }
-
-/* Estilos del encabezado */
-$header-background: #333;
-$header-color: #fff;
-$header-padding: 40px 0;
-
-.header {
-    background-color: $header-background;
-    color: $header-color;
-    text-align: center;
-    padding: $header-padding;
-    position: relative;
-}
-
-
 
 /* Estilos de la barra de navegación */
 $nav-background: #444;
